@@ -3,11 +3,13 @@
   "description": "Back end for Curt and I's Hackathon",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "npm t"
+    "start": "node -r dotenv/config server.js",
+    "dev": "nodemon -r dotenv/config server.js",
+    "test": "node -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
@@ -18,6 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/fabbihas/week11-back-end-hackathon.git"
   },
+  "type": "module",
   "author": "Curt and Fabbi",
   "license": "ISC",
   "bugs": {
