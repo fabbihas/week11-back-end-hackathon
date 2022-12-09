@@ -1,0 +1,27 @@
+{
+  "name": "week11-back-end-hackathon",
+  "description": "Back end for Curt and I's Hackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm t"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabbihas/week11-back-end-hackathon.git"
+  },
+  "author": "Curt and Fabbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabbihas/week11-back-end-hackathon/issues"
+  },
+  "homepage": "https://github.com/fabbihas/week11-back-end-hackathon#readme"
+}
